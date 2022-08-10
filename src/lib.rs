@@ -1,8 +1,6 @@
 mod interpolation;
 mod math;
 
-pub use interpolation::Interpolation;
-
 pub struct Ndarray<T> {
     items: Vec<Vec<Option<T>>>,
     n_size: usize, // Number of arrays
